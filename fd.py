@@ -1,4 +1,4 @@
- import cv2
+import cv2
 import numpy as np
 import face_recognition
 import os
@@ -73,4 +73,5 @@ while True:
         break
 
 cap.release()
+
 cv2.destroyAllWindows()
